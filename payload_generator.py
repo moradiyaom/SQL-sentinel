@@ -50,7 +50,7 @@ class payload_gernrator:
     def clear_payloads(self):
         self.payloads.clear()
 
-        def save_payloads(self, filename="payloads.txt"):
+    def save_payloads(self, filename="payloads.txt"):
         with open(filename, "w") as f:
             f.write("\n".join(self.payloads))
 
